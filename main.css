@@ -1,3 +1,24 @@
+@keyframes nhmeds{
+    0%{
+
+    }
+    20%{
+        
+    }
+    40%{
+        
+    }
+    60%{
+        
+    }
+    80%{
+        
+    }
+    100%{
+        
+    }
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -26,25 +47,34 @@ body{
 .header_name{
     display: flex;
     letter-spacing: 2px;
-    
-    color: #D9D5DC;
     width: 100%;
     height: 100%;
     align-items: center;
     justify-content: center;
-    text-shadow: 1px 1px 3px 2px rgb(8, 0, 255);
     background-image: linear-gradient(
         to right bottom,
-        rgba(0, 0, 0, 0.901),
-        rgb(125, 125, 125)
+        rgba(255, 255, 255, 0.901),
+        rgb(151, 145, 145)
     );
-    border: 2px solid #1F1C21;
+    border: 2px solid #4e4a51;
     border-top-left-radius: 5px;
     border-top-right-radius: 20%;
     border-bottom-left-radius: 20%;
     border-bottom-right-radius: 5px;
-    box-shadow: 0px 0px 5px 2px rgb(101, 91, 91);
+    box-shadow: 0px 0px 5px 2px rgba(101, 91, 91, 0.533);
     padding: 10px;
+}
+
+.header_name_gradient{
+    display: flex;
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(
+        to right,
+        rgb(255, 0, 0),
+        rgb(4, 0, 255),
+        rgb(255, 0, 242)
+    );
 }
 
 .main{
@@ -163,9 +193,10 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 50%;
     height: 100%;
-    background-color: blue;
+    border: 1px solid black;
+    gap: 15px;
 }
 
 .nhmeds_content{
@@ -176,18 +207,19 @@ body{
     width: 100%;
     height: 100%;
     max-height: 600px;
-    max-width: 600px;
-    background-color: purple;
+    max-width: 930px;
+    
 }
 
 .nhmeds_content_text{
     display: flex;
+    gap: 10px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
     height: 100%;
-    background-color: blue;
+    
 }
 
 .nhmeds_content_logo{
@@ -203,66 +235,146 @@ body{
     border: 3px solid rgb(163, 199, 224);
 }
 
+.nhmeds_content_logo:hover{
+    animation-name: nhmeds;
+}
+
+.nhmeds_slideshow{
+    display: flex;
+    flex-direction: row;
+}
+
 .nhmeds_images{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     max-width: 800px;
-    max-height: 420px;
+    max-height: 400px;
     scroll-behavior: smooth;
     overflow: hidden;
+    scroll-snap-type: y mandatory;
+    border: 1px solid black ;
     
 }
 
 .nhmeds_image1{
     display: flex;
-    width: 100px;
-    height: 100px;
+    width: 100%;
+    height: 100%;
+    max-width: 800px;
+    max-height: 420px;
     align-items: center;
     justify-content: center;
+    
 }
 
 .nhmeds_img1{
     display: flex;
-    width: 800px;
-    height: 400px;
-    scroll-snap-type: x mandatory;
-
+    width: 100%;
+    height: 100%;
+    scroll-snap-type: y mandatory;
+    align-items: center;
+    scroll-snap-align: center;
+    object-fit: cover;
 }
 
 .nhmeds_image2{
     display: flex;
+    width: 100%;
+    height: 100%;
+    scroll-snap-type: y mandatory;
+    align-items: center;
+    justify-content: center;
     
 }
 
 .nhmeds_img2{
     display: flex;
-    width: 800px;
-    height: 400px;
+    width: 100%;
+    height: 100%;
     scroll-snap-type: x mandatory;
-    align-items: center;
     justify-content: center;
+    scroll-snap-align: center;
+    
 }
 
 .nhmeds_nav{
     display: flex;
+    flex-direction: column;
     gap: 15px;
+    align-items: center;
+    justify-content: center;
     
 }
 
 .nhmeds_nav a{
+    margin-left: 15px;
     display: flex;
-    padding: 50px;
-    background-color: black;
-    
+    padding: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.nhmeds_nav_top{
+    display: flex;
+    font-size: 30px;
+    background-color: rgb(107, 183, 225);
+    border: 3px solid rgb(163, 199, 224);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius:40px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 1px 1px 0px 1px rgb(184, 183, 183);
+}
+
+.nhmeds_nav_bottom{
+    display: flex;
+    font-size: 30px;
+    background-color: rgb(107, 183, 225);
+    border: 3px solid rgb(163, 199, 224);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius:40px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 1px 1px 0px 1px rgb(184, 183, 183);
+}
+
+.nhmeds_nav_top:hover{
+    display: flex;
+    font-size: 30px;
+    background-image: linear-gradient(
+        to top,
+        rgb(118, 203, 249),
+        rgb(66, 151, 194)
+    );
+    box-shadow: 1px 1px 1px 2px rgb(150, 150, 202);
+    border: 3px solid rgb(117, 143, 161);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius:40px;
+    border-bottom-right-radius: 20px;
+}
+
+.nhmeds_nav_bottom:hover{
+    display: flex;
+    font-size: 30px;
+    background-image: linear-gradient(
+        to bottom,
+        rgb(118, 203, 249),
+        rgb(66, 151, 194)
+    );
+    box-shadow: 1px 1px 1px 2px rgb(150, 150, 202);
+    border: 3px solid rgb(117, 143, 161);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius:40px;
+    border-bottom-right-radius: 20px;
 }
 
 
 .oldmain{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 50%;
     height: 100%;
     background-color: red;
     align-items: center;
