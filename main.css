@@ -161,19 +161,11 @@ body{
 .nhmeds{
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 100%;
-    background-color: blue;
-}
-
-.nhmeds_image{
-    display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
     width: 100%;
     height: 100%;
-    background-color: violet;
+    background-color: blue;
 }
 
 .nhmeds_content{
@@ -183,6 +175,8 @@ body{
     justify-content: center;
     width: 100%;
     height: 100%;
+    max-height: 600px;
+    max-width: 600px;
     background-color: purple;
 }
 
@@ -209,11 +203,65 @@ body{
     border: 3px solid rgb(163, 199, 224);
 }
 
+.nhmeds_images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 800px;
+    max-height: 420px;
+    scroll-behavior: smooth;
+    overflow: hidden;
+    
+}
+
+.nhmeds_image1{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nhmeds_img1{
+    display: flex;
+    width: 800px;
+    height: 400px;
+    scroll-snap-type: x mandatory;
+
+}
+
+.nhmeds_image2{
+    display: flex;
+    
+}
+
+.nhmeds_img2{
+    display: flex;
+    width: 800px;
+    height: 400px;
+    scroll-snap-type: x mandatory;
+    align-items: center;
+    justify-content: center;
+}
+
+.nhmeds_nav{
+    display: flex;
+    gap: 15px;
+    
+}
+
+.nhmeds_nav a{
+    display: flex;
+    padding: 50px;
+    background-color: black;
+    
+}
 
 
 .oldmain{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     width: 100%;
     height: 100%;
     background-color: red;
