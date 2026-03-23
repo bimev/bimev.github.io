@@ -213,6 +213,7 @@ body{
     height: 100%;
     border: 1px solid black;
     gap: 15px;
+    margin-top: 15px;
 }
 
 .nhmeds_content{
@@ -399,7 +400,7 @@ body{
     flex-direction: column;
     width: 50%;
     height: 100%;
-    background-color: red;
+    
     align-items: center;
 }
 
@@ -408,7 +409,7 @@ body{
     flex-direction: row;
     width: 100%;
     height: 100%;
-    background-color: purple;
+    
     
 
 }
@@ -417,7 +418,7 @@ body{
     display: flex;
     flex-direction: row;
     height: 100%;
-    background-color: purple;
+    
 }
 
 .oldmain_content_logo_link{
@@ -440,7 +441,7 @@ body{
     align-items: center;
     width: 100%;
     height: 100%;
-    background-color: blue;
+    
 }
 
 .oldmain_image{
@@ -451,7 +452,7 @@ body{
     height: 100%;
     max-width: 800px;
     max-height: 420px;
-    background-color: violet;
+    
     overflow: hidden;
     scroll-behavior: smooth;
 }
