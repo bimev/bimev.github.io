@@ -99,6 +99,7 @@ body{
     flex-direction: column;
     background-color: #D9D5DC;
     border: 1px solid #1F1C21;
+    border-bottom-right-radius: 15px;
 }
 
 .L1_text_quote{
@@ -119,6 +120,7 @@ body{
     width: 35%;
     height: 300px;
     border: 1px solid #1F1C21;
+    border-bottom-left-radius: 15px;
     padding: 20px;
 }
 
@@ -215,6 +217,7 @@ body{
     width: 50%;
     height: 100%;
     border: 1px solid black;
+    border-top-right-radius: 15px;
     gap: 15px;
     margin-top: 15px;
     padding: 7px;
@@ -409,6 +412,7 @@ body{
     margin-top: 15px;
     align-items: center;
     border: 1px solid black;
+    border-top-left-radius: 15px;
 }
 
 .oldmain_content{
