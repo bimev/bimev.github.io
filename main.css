@@ -199,7 +199,10 @@ body{
 .main2{
     display: flex;
     flex-direction: row;
-    width: 100%;
+    justify-content: center;
+    align-self: center;
+    gap: 10px;
+    width: 85%;
     height: 100%;
 
 }
@@ -214,6 +217,7 @@ body{
     border: 1px solid black;
     gap: 15px;
     margin-top: 15px;
+    padding: 7px;
 }
 
 .nhmeds_content{
@@ -266,13 +270,14 @@ body{
 .nhmeds_slideshow{
     display: flex;
     flex-direction: row;
+    gap: 10px;
 }
 
 .nhmeds_images{
     display: flex;
     flex-direction: column;
     max-width: 800px;
-    max-height: 400px;
+    max-height: 350px;
     scroll-behavior: smooth;
     overflow: hidden;
     scroll-snap-type: y mandatory;
@@ -331,7 +336,6 @@ body{
 }
 
 .nhmeds_nav a{
-    margin-left: 15px;
     display: flex;
     padding: 25px;
     text-decoration: none;
@@ -400,6 +404,7 @@ body{
     flex-direction: column;
     width: 50%;
     gap: 15px   ;
+    padding: 7px;
     height: 100%;
     margin-top: 15px;
     align-items: center;
@@ -418,7 +423,7 @@ body{
 
 .oldmain_wrap{
     display: flex;
-    gap: 20px   ;
+    gap: 10px   ;
     flex-direction: row;
 }
 
@@ -457,7 +462,7 @@ body{
     display: flex;
     flex-direction: column;
     max-width: 800px;
-    max-height: 398px;
+    max-height: 349px;
     scroll-behavior: smooth;
     overflow: hidden;
     scroll-snap-type: y mandatory;
