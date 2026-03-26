@@ -31,6 +31,14 @@
     .main2{
         flex-direction: column !important;
     }
+
+    .nhmeds{
+        width: 100% !important;
+    }
+
+    .oldmain{
+        width: 100% !important;
+    }
 }
 
 @keyframes nhmeds{
