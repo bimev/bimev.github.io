@@ -1,4 +1,4 @@
-@media screen and (max-width: 400px){
+@media screen and (max-width: 430px){
 
     .header2_content_profile{
         width: 40%;
@@ -242,7 +242,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+    height: 100%;
 }
 
 .main_top{
