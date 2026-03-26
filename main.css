@@ -36,8 +36,32 @@
         width: 100% !important;
     }
 
+    .nhmeds_nav{
+        display: none !important;
+    }
+
+    .nhmeds_content_logo{
+        align-self: flex-start;
+    }
+
     .oldmain{
         width: 100% !important;
+    }
+
+    .oldmain_nav{
+        display: none !important;
+    }
+
+    .oldmain_content{
+        flex-direction: row-reverse !important;
+    }
+
+    .oldmain_content_text{
+        align-items: normal !important;
+    }
+
+    .oldmain_content_text h3{
+        align-self: center !important;
     }
 }
 
