@@ -1,3 +1,12 @@
+@media screen and (max-width: 400px){
+
+    .header2_content_profile{
+        width: 40%;
+        height: auto;
+    }
+}
+
+
 @font-face {
     font-family: "OpenSans-regular";
     src: url("font/OpenSans-Regular.ttf") format("truetype");
@@ -182,7 +191,8 @@ body {
     justify-self: center;
     width: 6%;
     height: 6%;
-    
+    min-width: 40px;
+    min-height: 40px;
 }
 
 .header2_content_profile_image{
@@ -200,6 +210,8 @@ body {
     display: flex;
     width: 5%;
     height: 5%;
+    min-width: 40px;
+  min-height: 40px;
     padding: 5px;
     
     border: #FF0000 solid 1px;
@@ -281,7 +293,7 @@ body {
         #E31B23,
         rgba(0, 255, 0, 0.6) 
         );
-    width: 1300px;
+        width: 60%;
     height: 300px;
     margin-bottom: 50px;
     border-radius: 10px;
