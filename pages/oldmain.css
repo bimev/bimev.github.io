@@ -966,3 +966,33 @@ height: 100%;
     }
 
 }
+
+@media screen and (max-width: 400px){
+    
+    .main_top_content2_square_bottom {
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .main_top_content2_square_top{
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+}
+
+@media screen and (max-width: 375px){
+    .main_top_content2_square_top_left_text{
+        font-size: 28px;
+        height: 80px;
+        width: 170px;
+    }
+
+    .main_top_content2_square_bottom {
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+}
