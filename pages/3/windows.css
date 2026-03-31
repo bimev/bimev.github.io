@@ -34,6 +34,13 @@ body {
     z-index: 100;
 }
 
+.taskbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
 .left{
     display: flex;
     flex-direction: row;
@@ -75,3 +82,52 @@ body {
     width: 50px;
     height: 50px;
 }
+
+.right{
+    display: flex;
+    flex-direction: row;
+}
+
+.up{
+    display: flex;
+    width: 50px;
+    height: 50px;
+}
+
+.internet{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    color: #ffff;
+}
+
+.volume{
+    display: flex;
+    width: 50px;
+    height: 50px;
+}
+
+.timendate{
+    display: flex;
+    flex-direction: column;
+    width: 50px;
+    height: 50px;
+}
+
+.time{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    color: #ffff;
+}
+
+.date{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    color: #ffff;
+}
+
+
