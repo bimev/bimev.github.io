@@ -13,6 +13,7 @@ body {
     height: 100%;
     background-image: url(/resources/win10.jpeg);
     background-size: cover;
+    font-family: "OpenSans-regular", sans-serif;
 }
 
 
@@ -48,86 +49,123 @@ body {
 
 .winbtn{
     display: flex;
-    width: 50px;
-    height: 50px;
+    width: 25px;
+    height: 25px;
+    padding-left: 15px;
+    padding-right: 11px;
+
 }
 
 .search{
     display: flex;
-    width: 50px;
-    height: 50px;
+    width: 25px;
+    height: 25px;
+    padding-left: 11px;
+    padding-right: 11px;
     
 }
 
 .desktopmana{
     display: flex;
-    width: 50px;
-    height: 50px;
+    width: 25px;
+    height: 25px;
+    padding-left: 11px;
+    padding-right: 11px;
 }
 
 .edge{
     display: flex;
-    width: 50px;
-    height: 50px;
+    width: 25px;
+    height: 25px;
+    padding-left: 11px;
+    padding-right: 11px;
 }
 
 .resources{
     display: flex;
-    width: 50px;
-    height: 50px;
+    width: 25px;
+    height: 25px;
+    padding-left: 11px;
+    padding-right: 11px;
 }
 
 .store{
     display: flex;
-    width: 50px;
-    height: 50px;
+    width: 25px;
+    height: 25px;
+    padding-left: 11px;
+    padding-right: 11px;
 }
 
 .right{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .up{
     display: flex;
-    width: 50px;
-    height: 50px;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .internet{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 50px;
-    height: 50px;
+    width: 20px;
+    height: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
     color: #ffff;
 }
 
 .volume{
     display: flex;
-    width: 50px;
-    height: 50px;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+   padding-left: 5px;
+    padding-right: 5px;
 }
 
 .timendate{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 50px;
-    height: 50px;
+    height: 35px;
+    gap: 3px;
+    font-size: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .time{
     display: flex;
-    width: 50px;
-    height: 50px;
     color: #ffff;
+    letter-spacing: 2px;
 }
 
 .date{
     display: flex;
-    width: 50px;
-    height: 50px;
     color: #ffff;
+    letter-spacing: 1px;
+}
+
+.news{
+    display: flex;
+    border-left: solid 1px #ffff;
+    border-top: solid 1px #fff;
+    padding-left: 7px;
+    height: 40px;
 }
 
 
