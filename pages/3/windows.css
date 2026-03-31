@@ -40,6 +40,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    height: 40px;
 }
 
 .left{
@@ -51,50 +52,80 @@ body {
     display: flex;
     width: 25px;
     height: 25px;
+    padding: 7.5px;
     padding-left: 15px;
     padding-right: 11px;
 
+}
+
+.winbtn:hover{
+    background-color: rgb(94, 87, 87);
 }
 
 .search{
     display: flex;
     width: 25px;
     height: 25px;
+    padding: 7.5px;
     padding-left: 11px;
     padding-right: 11px;
     
+}
+
+.search:hover{
+    background-color: rgb(94, 87, 87);
 }
 
 .desktopmana{
     display: flex;
     width: 25px;
     height: 25px;
+    padding: 7.5px;
     padding-left: 11px;
     padding-right: 11px;
+}
+
+.desktopmana:hover{
+    background-color: rgb(94, 87, 87);
 }
 
 .edge{
     display: flex;
     width: 25px;
     height: 25px;
+    padding: 7.5px;
     padding-left: 11px;
     padding-right: 11px;
+}
+
+.edge:hover{
+    background-color: rgb(94, 87, 87);
 }
 
 .resources{
     display: flex;
     width: 25px;
     height: 25px;
+    padding: 7.5px;
     padding-left: 11px;
     padding-right: 11px;
+}
+
+.resources:hover{
+    background-color: rgb(94, 87, 87);
 }
 
 .store{
     display: flex;
     width: 25px;
     height: 25px;
+    padding: 7.5px;
     padding-left: 11px;
     padding-right: 11px;
+}
+
+.store:hover{
+    background-color: rgb(94, 87, 87);
 }
 
 .right{
@@ -110,8 +141,13 @@ body {
     justify-content: center;
     width: 20px;
     height: 20px;
+    padding: 10px;
     padding-left: 5px;
     padding-right: 5px;
+}
+
+.up:hover{
+    background-color: rgb(94, 87, 87);
 }
 
 .internet{
@@ -120,10 +156,17 @@ body {
     justify-content: center;
     width: 20px;
     height: 20px;
+    padding: 10px;
     padding-left: 5px;
     padding-right: 5px;
     color: #ffff;
 }
+
+.internet:hover{
+    background-color: rgb(94, 87, 87);
+}
+
+
 
 .volume{
     display: flex;
@@ -131,9 +174,15 @@ body {
     justify-content: center;
     width: 20px;
     height: 20px;
+    padding: 10px;
    padding-left: 5px;
     padding-right: 5px;
 }
+
+.volume:hover{
+    background-color: rgb(94, 87, 87);
+}
+
 
 .timendate{
     display: flex;
@@ -144,8 +193,13 @@ body {
     height: 35px;
     gap: 3px;
     font-size: 10px;
+    padding: 7.5px;
     padding-left: 15px;
     padding-right: 15px;
+}
+
+.timendate:hover{
+    background-color: rgb(94, 87, 87);
 }
 
 .time{
@@ -166,6 +220,10 @@ body {
     border-top: solid 1px #fff;
     padding-left: 7px;
     height: 40px;
+}
+
+.news:hover{
+    background-color: rgb(94, 87, 87);
 }
 
 
