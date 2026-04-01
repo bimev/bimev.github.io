@@ -1,9 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    width: auto;
-    height: auto;
-    overflow: hidden;
+    box-sizing: border-box;
 }
 
 body {
@@ -46,16 +44,47 @@ body {
 .left{
     display: flex;
     flex-direction: row;
+    
 }
 
 .winbtn{
+    position: relative;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7.5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.winbtn_ico{
+    display: block;
     width: 25px;
     height: 25px;
-    padding: 7.5px;
-    padding-left: 15px;
-    padding-right: 11px;
+    
+}
 
+.winbtn_content{
+    display: none;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    min-width: 900px;
+    min-height: 600px;
+    background-color: rgb(47, 45, 45);
+    color: #ffff;
+    border: 1px solid #888;
+    padding: 12px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.15s ease, visibility 0.15s ease;
+}
+
+.winbtn:hover .winbtn_content,
+.winbtn_content:hover {
+    display: block;
+    opacity: 1;
+    visibility: visible;
 }
 
 .winbtn:hover{
@@ -64,12 +93,18 @@ body {
 
 .search{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7.5px;
+    padding-left: 7px;
+    padding-right: 7px;
+    
+}
+
+.search_ico{
+    display: block;
     width: 25px;
     height: 25px;
-    padding: 7.5px;
-    padding-left: 11px;
-    padding-right: 11px;
-    
 }
 
 .search:hover{
@@ -78,11 +113,17 @@ body {
 
 .desktopmana{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7.5px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.desktopmana_ico{
+    display: block;
     width: 25px;
     height: 25px;
-    padding: 7.5px;
-    padding-left: 11px;
-    padding-right: 11px;
 }
 
 .desktopmana:hover{
@@ -91,11 +132,17 @@ body {
 
 .edge{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7.5px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.edge_ico{
+    display: block;
     width: 25px;
     height: 25px;
-    padding: 7.5px;
-    padding-left: 11px;
-    padding-right: 11px;
 }
 
 .edge:hover{
@@ -104,11 +151,17 @@ body {
 
 .resources{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7.5px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.resources_ico{
+    display: block;
     width: 25px;
     height: 25px;
-    padding: 7.5px;
-    padding-left: 11px;
-    padding-right: 11px;
 }
 
 .resources:hover{
@@ -117,11 +170,17 @@ body {
 
 .store{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7.5px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.store_ico{
+    display: block;
     width: 25px;
     height: 25px;
-    padding: 7.5px;
-    padding-left: 11px;
-    padding-right: 11px;
 }
 
 .store:hover{
