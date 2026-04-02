@@ -91,6 +91,80 @@ body {
     background-color: rgb(94, 87, 87);
 }
 
+.winbtn_left{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.winbtn_left_top{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+}
+
+.left_user{
+    display: flex;
+    flex-direction: row;
+}
+
+.left_usericon{
+    display: flex;
+}
+
+.left_username{
+    display: flex;
+}
+
+.left_user_content{
+    display: flex;
+}
+
+.left_mostused{
+    display: flex;
+    flex-direction: column;
+}
+
+.mostused_calculator{
+    display: flex;
+    flex-direction: row;
+}
+
+.mostused_maps{
+    display: flex;
+    flex-direction: row;
+}
+
+.winbtn_left_bottom{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.left_resourcemanager{
+    display: flex;
+    flex-direction: row; 
+}
+
+.left_settings{
+    display: flex;
+    flex-direction: row;
+}
+
+.left_power{
+    display: flex;
+    flex-direction: row;
+}
+
+.left_apps{
+    display: flex;
+    flex-direction: row;
+}
+
 .search{
     display: flex;
     align-items: center;
