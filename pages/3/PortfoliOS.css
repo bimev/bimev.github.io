@@ -167,18 +167,116 @@ body {
 
 .winbtn_middle{
     display: flex;
+    flex-direction: column;
     height: 100%;
     width: 100%;
+    
 }
 
 .middle_trending{
     display: grid;
+    grid-template-columns: repeat(3, 97px);
+    grid-template-rows: repeat(4, 97px);
+}
+
+.trending_calender{
+    grid-column: span 1;
+    background-color: rgb(0,0,0);
+}
+
+.trending_mail{
+    grid-column: span 2;
+    background-color: rgb(1, 86, 22);
+}
+
+.trending_browser{
+    grid-column: span 2;
+    background-color: rgb(62, 0, 0);
+}
+
+.trending_photos{
+    grid-column: span 1;
+    background-color: rgb(249, 138, 138);
+}
+
+.trending_weather{
+    grid-column: span 1;
+    background-color: rgb(62, 34, 34);
+}
+
+.trending_phone{
+    grid-column: span 1;
+    background-color: rgb(226, 0, 0);
+}
+
+.trending_forums{
+    grid-column: span 1;
+    background-color: rgb(149, 115, 115);
+}
+
+.trending_shop{
+    grid-column: span 1;
+    background-color: rgb(70, 39, 39);
+}   
+
+.trending_call{
+    grid-column: span 2;
+    background-color: rgb(160, 36, 36);
 }
 
 .winbtn_right{
     display: flex;
+    flex-direction: column;
     height: 100%;
     width: 100%;
+}
+
+.right_entertainment{
+    display: grid;
+    grid-template-columns: repeat(3, 97px);
+    grid-template-rows: repeat(4, 97px);
+}
+
+.entertainment_games{
+    background-color: rgb(255, 144, 144);
+}
+
+.entertainment_music{
+    background-color: rgb(75, 27, 27);
+}
+
+.entertainment_movies{
+    background-color: rgb(163, 25, 25);
+}
+
+.entertainment_cards{
+    background-color: rgb(93, 93, 93);
+}
+
+.entertainment_holder1{
+    grid-column: span 2;
+    background-color: rgb(104, 0, 0);
+}
+
+.entertainment_news{
+    grid-column: span 2;
+    background-color: rgb(0,0,0);
+}
+
+.entertainment_economy{
+    background-color: rgb(26, 0, 0);
+}
+
+.entertainment_holder2{
+    background-color: rgb(93, 49, 49);
+}
+
+.entertainment_editor{
+    background-color: rgb(82, 60, 60);
+}
+
+.entertainment_useless{
+    background-color: rgb(79, 72, 72);
 }
 
 .search{
