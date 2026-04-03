@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "OpenSans";
+    src: url("../font/OpenSans-Regular.ttf");
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -11,7 +16,7 @@ body {
     height: 100%;
     background-image: url(/resources/desktopbg.png);
     background-size: cover;
-    font-family: "OpenSans-regular", sans-serif;
+    font-family: "OpenSans", sans-serif;
 }
 
 
@@ -108,10 +113,16 @@ body {
 .left_user{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    gap: 7px;
 }
 
 .left_usericon{
     display: flex;
+    align-self: center;
+    background-color: #888;
+    border-radius: 50%;
+    padding: 10px;
 }
 
 .left_username{
@@ -127,12 +138,27 @@ body {
     flex-direction: column;
 }
 
+.mostused_start{
+    display: flex;
+    flex-direction: row;
+}
+
 .mostused_calculator{
     display: flex;
     flex-direction: row;
 }
 
 .mostused_maps{
+    display: flex;
+    flex-direction: row;
+}
+
+.mostused_people{
+    display: flex;
+    flex-direction: row;
+}
+
+.mostused_alarmclock{
     display: flex;
     flex-direction: row;
 }
