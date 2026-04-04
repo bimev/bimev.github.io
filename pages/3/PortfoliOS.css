@@ -294,7 +294,21 @@ body {
 .trending_mail_content{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(29, 120, 173);
+    height: 100%;
+    align-items: end;
 }
+
+.trending_mail_content i{
+    padding: 0px 5px 5px 0px;
+}
+
+.trending_mail_content p{
+    font-size: 15px;
+    padding: 0px 0px 5px 5px;
+}
+
 
 .trending_browser{
     grid-column: span 2;
