@@ -153,7 +153,7 @@ body {
 }
 
 .mostused_startico{
-    background-color: rgb(29, 120, 173);
+    background-color: rgb(34, 29, 173);
     padding: 6px;
 }
 
@@ -165,7 +165,7 @@ body {
 }
 
 .mostused_calculatorico{
-    background-color: rgb(29, 120, 173);
+    background-color: rgb(34, 29, 173);
     padding: 6px;
 }
 
@@ -178,7 +178,7 @@ body {
 }
 
 .mostused_mapsico{
-    background-color: rgb(29, 120, 173);
+    background-color: rgb(34, 29, 173);
     padding: 6px;
 }
 
@@ -190,7 +190,7 @@ body {
 }
 
 .mostused_peopleico{
-   background-color: rgb(29, 120, 173);
+   background-color: rgb(34, 29, 173);
    padding: 6px;
 }
 
@@ -202,7 +202,7 @@ body {
 }
 
 .mostused_alarmclockico{
-   background-color: rgb(29, 120, 173);
+   background-color: rgb(34, 29, 173);
    padding: 6px;
 }
 
@@ -261,7 +261,7 @@ body {
 
 .trending_calender{
     grid-column: span 1;
-    background-color: rgb(29, 120, 173);
+    background-color: rgb(34, 29, 173);
     justify-content: end;
 
 }
@@ -295,7 +295,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    background-color: rgb(29, 120, 173);
+    background-color: rgb(34, 29, 173);
     height: 100%;
     align-items: end;
 }
@@ -315,34 +315,160 @@ body {
     background-color: rgb(62, 0, 0);
 }
 
+.trending_browser_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(34, 29, 173);
+    height: 100%;
+    align-items: end;
+}
+
+.trending_browser_content i{
+    padding: 0px 5px 5px 0px;
+}
+
+.trending_browser_content p{
+    font-size: 15px;
+    padding: 0px 0px 5px 5px;
+}
+
 .trending_photos{
     grid-column: span 1;
-    background-color: rgb(249, 138, 138);
+    background-color: rgb(34, 29, 173);
+}
+
+.trending_photos_content{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+}
+
+.trending_photos_content i{
+    align-self: center;
+    padding-bottom: 15px;
+}
+
+.trending_photos_content p{
+    font-size: 15px;
+    padding: 0px 0px 5px 5px;
 }
 
 .trending_weather{
     grid-column: span 1;
-    background-color: rgb(62, 34, 34);
+    background-color: rgb(34, 29, 173);
+}
+
+.trending_weather_content{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+}
+
+.trending_weather_content i{
+    align-self: center;
+    padding-bottom: 15px;
+}
+
+.trending_wheather_content p{
+    font-size: 15px;
+    padding: 0px 0px 5px 5px;
 }
 
 .trending_phone{
     grid-column: span 1;
-    background-color: rgb(226, 0, 0);
+    background-color: rgb(34, 29, 173);
+}
+
+.trending_phone_content{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+}
+
+.trending_phone_content i{
+    align-self: center;
+    padding-bottom: 15px;
+}
+
+.trending_phone_content p{
+    font-size: 15px;
+    padding: 0px 0px 5px 5px;
 }
 
 .trending_forums{
     grid-column: span 1;
-    background-color: rgb(149, 115, 115);
+    background-color: rgb(34, 29, 173);
+}
+
+.trending_forums_content{
+     display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+}
+
+.trending_forums_content i{
+    align-self: center;
+    padding-bottom: 15px;
+}
+
+.trending_forums_content p{
+    font-size: 15px;
+    padding: 0px 0px 5px 5px;
 }
 
 .trending_shop{
     grid-column: span 1;
-    background-color: rgb(70, 39, 39);
+    background-color: rgb(34, 29, 173);
 }   
+
+.trending_shop_content{
+     display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+}
+
+.trending_shop_content i{
+    align-self: center;
+    padding-bottom: 15px;
+}
+
+.trending_shop_content p{
+    font-size: 15px;
+    padding: 0px 0px 5px 5px;
+}
 
 .trending_call{
     grid-column: span 2;
-    background-color: rgb(160, 36, 36);
+    background-color: rgb(34, 29, 173);
+}
+
+.trending_call_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(34, 29, 173);
+    height: 100%;
+    align-items: end;
+}
+
+.trending_call_content i{
+    padding: 0px 5px 5px 0px;
+}
+
+.trending_call_content p{
+    font-size: 15px;
+    padding: 0px 0px 5px 5px;
 }
 
 .winbtn_right{
