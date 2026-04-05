@@ -27,6 +27,33 @@ body {
     flex: 1;
 }
 
+.desktop{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: start;
+}
+
+.trashcan{
+    display: flex;
+    flex-direction: column;
+    width: 90px;
+    height: 90px;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+    font-weight: 200;
+    font-size: 15px;
+}
+
+.trashcan:hover{
+    background-color: rgb(94, 87, 87);
+}
+
+.trashcanimg{
+    width: 70px;
+    height: 70px;
+}
 
 .footer{
     display: block;
@@ -710,6 +737,7 @@ body {
 
 .search{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 7.5px;
