@@ -68,7 +68,7 @@ body {
 }
 
 .winbtn_content{
-    display: flex; /* replace with none */
+    display: none;
     position: absolute;
     flex-direction: row;
     bottom: 40px;
@@ -83,13 +83,13 @@ body {
 }
 
 
-/* winbtn:hover .winbtn_content,
+ .winbtn:hover .winbtn_content,
 .winbtn_content:hover {
     display: flex;
     opacity: 1;
     visibility: visible;
 }
-    */
+    
 
 .winbtn:hover{
     background-color: rgb(94, 87, 87);
@@ -249,7 +249,7 @@ body {
     flex-direction: column;
     height: 100%;
     width: 100%;
-    
+    gap: 7px;    
 }
 
 .middle_trending{
@@ -476,54 +476,236 @@ body {
     flex-direction: column;
     height: 100%;
     width: 100%;
+    gap: 7px;
 }
 
 .right_entertainment{
     display: grid;
+    gap: 6px;
     grid-template-columns: repeat(3, 120px);
     grid-template-rows: repeat(4, 120px);
 }
 
 .entertainment_games{
-    background-color: rgb(255, 144, 144);
+    background-color: rgb(34, 29, 173);
+}
+
+.entertainment_games_content{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+}
+
+.entertainment_games_content i{
+    align-self: center;
+    padding-bottom: 15px;
+}
+
+.entertainment_games_content p{
+    font-size: 15px;
+    padding: 0px 0px 5px 5px;
 }
 
 .entertainment_music{
-    background-color: rgb(75, 27, 27);
+    background-color: rgb(34, 29, 173);
+}
+
+.entertainment_music_content{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+}
+
+.entertainment_music_content i{
+    align-self: center;
+    padding-bottom: 15px;
+}
+
+.entertainment_music_content p{
+    font-size: 15px;
+    padding: 0px 0px 5px 5px;
 }
 
 .entertainment_movies{
-    background-color: rgb(163, 25, 25);
+    background-color: rgb(34, 29, 173);
+}
+
+.entertainment_movies_content{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+}
+
+.entertainment_movies_content i{
+    align-self: center;
+    padding-bottom: 15px;
+}
+
+.entertainment_movies_content p{
+    font-size: 15px;
+    padding: 0px 0px 5px 5px;
 }
 
 .entertainment_cards{
-    background-color: rgb(93, 93, 93);
+    background-color: rgb(34, 29, 173);
+}
+
+.entertainment_cards_content{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+}
+
+.entertainment_cards_content i{
+    align-self: center;
+    padding-bottom: 15px;
+}
+
+.entertainment_cards_content p{
+    font-size: 15px;
+    padding: 0px 0px 5px 5px;
 }
 
 .entertainment_holder1{
     grid-column: span 2;
-    background-color: rgb(104, 0, 0);
+    background-color: rgb(34, 29, 173);
+}
+
+.entertainment_holder1_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(34, 29, 173);
+    height: 100%;
+    align-items: end;
+}
+
+.entertainment_holder1_content i{
+    padding: 0px 5px 5px 0px;
+}
+
+.entertainment_holder1_content p{
+    font-size: 15px;
+    padding: 0px 0px 5px 5px;
 }
 
 .entertainment_news{
     grid-column: span 2;
-    background-color: rgb(0,0,0);
+   background-color: rgb(34, 29, 173);
+}
+
+.entertainment_news_content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(34, 29, 173);
+    height: 100%;
+    align-items: end;
+}
+
+.entertainment_news_content i{
+    padding: 0px 5px 5px 0px;
+}
+
+.entertainment_news_content p{
+    font-size: 15px;
+    padding: 0px 0px 5px 5px;
 }
 
 .entertainment_economy{
-    background-color: rgb(26, 0, 0);
+    background-color: rgb(34, 29, 173);
+}
+
+.entertainment_economy_content{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+}
+
+.entertainment_economy_content i{
+    align-self: center;
+    padding-bottom: 15px;
+}
+
+.entertainment_economy_content p{
+    font-size: 15px;
+    padding: 0px 0px 5px 5px;
 }
 
 .entertainment_holder2{
-    background-color: rgb(93, 49, 49);
+    background-color: rgb(34, 29, 173);
+}
+
+.entertainment_holder2_content{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+}
+
+.entertainment_holder2_content i{
+    align-self: center;
+    padding-bottom: 15px;
+}
+
+.entertainment_holder2_content p{
+    font-size: 15px;
+    padding: 0px 0px 5px 5px;
 }
 
 .entertainment_editor{
-    background-color: rgb(82, 60, 60);
+    background-color: rgb(34, 29, 173);
+}
+
+.entertainment_editor_content{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+}
+
+.entertainment_editor_content i{
+    align-self: center;
+    padding-bottom: 15px;
+}
+
+.entertainment_editor_content p{
+    font-size: 15px;
+    padding: 0px 0px 5px 5px;
 }
 
 .entertainment_useless{
-    background-color: rgb(79, 72, 72);
+    background-color: rgb(34, 29, 173);
+}
+
+.entertainment_useless_content{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-start;
+}
+
+.entertainment_useless_content i{
+    align-self: center;
+    padding-bottom: 15px;
+}
+
+.entertainment_useless_content p{
+    font-size: 15px;
+    padding: 0px 0px 5px 5px;
 }
 
 .search{
