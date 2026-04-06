@@ -38,16 +38,26 @@ html, body {
     3px 1px rgb(24, 249, 212),
     -4px -1px rgb(54, 6, 157),
     4px -2px rgb(0, 53, 245),
-    -5px 2px rgb(0, 53, 245),
+    -5px 2px rgb(0, 53, 245),   
 
-    5px -2px rgb(54, 6, 157),
-    -4px 2px rgb(24, 249, 212),
-    -7px 2px rgb(54, 6, 157),
-    -6px -3px rgb(141, 36, 216),
-    6px 3px rgb(141, 36, 216),
-    8px -4px rgb(24, 249, 212)
+    6px 5px rgb(0,0,0),
+    -6px -5px rgb(0,0,0),
 
+    7px 4px rgb(255, 255, 255),
+    -7px -4px rgb(255, 255, 255),
+
+    5px 7px rgb(255, 255, 255),
+    -5px -7px rgb(255, 255, 255),
+
+    2px 8px rgb(0,0,0),
+    -2px -8px rgb(0,0,0),
+
+    0px 10px rgb(0,0,0),
+    0px -10px rgb(0,0,0),
+
+    -10px 9px rgba(204, 43, 244, 0.56),
     
+    10px -9px rgba(47, 19, 190, 0.665)
     
     ;
 }
