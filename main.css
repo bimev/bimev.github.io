@@ -3,6 +3,20 @@
     src: url("font/OpenSans-Regular.ttf") format("truetype");
 }
 
+@keyframes loading{
+    0%{
+        opacity: 1;
+    }
+
+    33%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
 
 * {
     margin: 0;
@@ -30,7 +44,7 @@ html, body {
 
 .myname_text{
     display: flex;
-    letter-spacing: 40px;
+    letter-spacing: 27px;
     width: 100%;
     height: 100%;
     justify-content: center;
@@ -64,13 +78,57 @@ html, body {
 
 .myname_text h1{
     height: 100%;
-    border-top: solid 1px black;
-    border-left: solid 1px black;
+    border: solid 2px black;
     padding: 15PX 10PX 5PX 40PX;
-    border-top-left-radius: 40%;
-     /* box-shadow: inset 15px 0px rgba(255, 255, 255, 0.633), 
+     box-shadow: inset 2px 2px rgb(254, 255, 255), 
     1px 0px 3px 5px rgba(164, 161, 161, 0.871)
-     ; */
+     ; 
+}
+
+.myname_text b{
+    text-shadow: none;
+    color: black;
+    border: solid 1px rgb(46, 38, 38);
+    border-radius: 50%;
+    text-shadow: 2px 1px rgb(95, 93, 93);
+}
+
+.loadingname{
+    display: flex;
+    text-shadow: none;
+    align-items: end;
+    justify-content: end;
+    min-width: 150px;
+    flex-direction: row;
+    gap: 20px;
+    
+}
+
+.dot1{
+    display: flex;
+    animation-name: loading;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+}
+
+.dot2{
+    display: flex;
+    animation-name: loading;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 2s;
+}
+
+.dot3{
+    display: flex;
+    animation-name: loading;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-delay: 3s;
 }
 
 
