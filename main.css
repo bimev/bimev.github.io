@@ -132,10 +132,44 @@ html, body {
 }
 
 
+.sitecontent{
+    display: flex;
+    flex-direction: column;
+}
+
 .undermaintenace{
     display: flex;
     width: 100%;
     min-height: 300px;
     align-items: center;
+    justify-content: center;
+}
+
+.currentprojectaboutme{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.currentproject{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.currentproject_text{
+    display: flex;
+}
+
+.currentproject_img{
+    display: block;
+    max-width: 400px;
+    max-height: 300px;
+}
+
+.aboutme{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     justify-content: center;
 }
