@@ -153,13 +153,25 @@ html, body {
 .currentproject{
     display: flex;
     width: 100%;
-    align-items: center;
+    gap: 20px;
     justify-content: center;
 }
 
 .currentproject_text{
     display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
+
+.currentproject_text1{
+    display: flex;
+}
+
+.currentproject_text2{
+    display: flex;
+    
+}   
+
 
 .currentproject_img{
     display: block;
@@ -169,7 +181,13 @@ html, body {
 
 .aboutme{
     display: flex;
-    flex-direction: column;
-    width: 100%;
     justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.aboutme_text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
