@@ -135,6 +135,7 @@ html, body {
 .sitecontent{
     display: flex;
     flex-direction: column;
+    gap: 50px;
 }
 
 .undermaintenace{
@@ -145,9 +146,79 @@ html, body {
     justify-content: center;
 }
 
-.currentprojectaboutme{
+.aboutmelinkslanguages{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
+}
+
+
+.aboutme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.aboutme_text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.linkslanguages{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 100%;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.languages{
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(20, 15px);
+    grid-template-rows: repeat(15, 20px);
+}
+
+.htm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-row-start: 19;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 10;
+    background-color: orange;
+}
+
+.htm_text{
+    font-size: 40px;
+    
+}
+
+
+.css{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-row-start: 1;
+    grid-row-end: 21;
+    grid-column-start: 11;
+    grid-column-end: 21;
+    background-color: aqua;
+}
+
+.css_text{
+    font-size: 40px;
+}
+
+.projects{
+    display: flex;
 }
 
 .currentproject{
@@ -177,17 +248,4 @@ html, body {
     display: block;
     max-width: 400px;
     max-height: 300px;
-}
-
-.aboutme{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-}
-
-.aboutme_text{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
 }
