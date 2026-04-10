@@ -139,14 +139,6 @@ html, body {
     margin-top: 150px;
 }
 
-.undermaintenace{
-    display: flex;
-    width: 100%;
-    min-height: 300px;
-    align-items: center;
-    justify-content: center;
-}
-
 .aboutmelanguages{
     display: flex;
     flex-direction: row;
@@ -239,6 +231,8 @@ html, body {
 
 .projects{
     display: flex;
+    flex-direction: column;
+    gap: 100px;
 }
 
 .currentproject{
@@ -289,3 +283,63 @@ html, body {
     max-width: 600px;
     max-height: 450px;
 }
+
+.nhmeds{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    gap: 50px;
+}
+
+.nhmeds_content{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.nhmeds_namelogo{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    justify-content: start;
+    gap: 15px;
+}
+
+.nhmeds_name{
+    display: flex;
+    font-size: 25px;
+    align-self: center;
+}
+
+.nhmeds_logo{
+    display: flex;
+    width: 100%;
+    max-width: 120px;
+    height: 100%;
+    font-weight: 900;
+    color: rgb(225, 245, 254);
+    padding: 20px;
+    background-color: rgb(107, 183, 225);
+    border-radius: 20px;
+    border: 3px solid rgb(163, 199, 224);
+}
+
+.nhmeds_texts{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.nhmeds_img{
+    display: flex;
+
+}
+
+.nhmeds_image{
+    display: block;
+    max-height: 600px;
+    max-width: 450px;
+    
+}
+
