@@ -146,7 +146,7 @@ html, body {
     justify-content: center;
 }
 
-.aboutmelinkslanguages{
+.aboutmelanguages{
     display: flex;
     flex-direction: row;
 }
@@ -161,24 +161,28 @@ html, body {
 
 .aboutme_text{
     display: flex;
+    font-size: 25px;
     flex-direction: column;
     gap: 10px;
 }
 
-.linkslanguages{
+.languages{
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
     width: 100%;
 }
 
-.links{
+.languages_content{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-right: 20px;
     width: 100%;
 }
 
-.languages{
+
+.languageschart{
     display: grid;
     width: 100%;
     grid-template-columns: repeat(20, 15px);
