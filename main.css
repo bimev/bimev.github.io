@@ -351,3 +351,83 @@ html, body {
     
 }
 
+.oldmainpages{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 50px 0 50px 0;
+}
+
+.oldmainpages_text{
+    display: flex;
+    font-size: 30px;
+}
+
+.oldmainpagescontent{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.oldmain1{
+    display: flex;
+    background-image: linear-gradient(
+        to top left,
+        rgb(140, 140, 140),
+        rgb(0,0,0)
+    );
+    font-size: 30px;
+    padding: 10px 20px 10px 20px;
+    border-top-right-radius: 25px;
+    border: 2px solid rgb(75, 75, 75);
+}
+
+.oldmain1 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.oldmain1 b{
+    text-shadow: 1px 1px 0 rgb(44, 44, 44);
+}
+
+.oldmain2{
+    display: flex;
+    background-image: linear-gradient(
+        to top left,
+        rgb(140, 140, 140),
+        rgb(0,0,0)
+    );
+    font-size: 30px;
+    
+   padding: 10px 20px 10px 20px;
+    border-top-right-radius: 25px;
+    border: 2px solid rgb(75, 75, 75);
+}
+
+.oldmain2 a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.oldmain2 b{
+    text-shadow: 1px 1px 0 rgb(44, 44, 44);
+}
+
+.footer{
+    display: flex;
+    width: 100%;
+    background-color: black;
+}
+¨
+.footer_content{
+    display: flex;
+    
+}
+
+.footername{
+    display: flex;
+    color: aliceblue;
+}
